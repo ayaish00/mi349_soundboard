@@ -1,0 +1,55 @@
+html {
+    background-color: #f3f3f3;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+button {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border: 3px solid rgb(142, 5, 160);
+    border-radius: 15px;
+    box-shadow: rgba(87, 4, 87, 0.404) 5px 5px 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+#applause {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#bell {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#explosion {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+#cymbal {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+#hihat {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#snare {
+    grid-row: 3;
+    grid-column: 3;
+}
+
+h1 {
+    text-align: center;
+    grid-column: 2;
+}
+
